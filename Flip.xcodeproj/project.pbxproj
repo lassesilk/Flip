@@ -9,25 +9,33 @@
 /* Begin PBXBuildFile section */
 		C414F300247BB7440063A1E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C414F2FF247BB7440063A1E4 /* AppDelegate.swift */; };
 		C414F302247BB7440063A1E4 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C414F301247BB7440063A1E4 /* GameScene.sks */; };
-		C414F304247BB7440063A1E4 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = C414F303247BB7440063A1E4 /* Actions.sks */; };
 		C414F306247BB7440063A1E4 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C414F305247BB7440063A1E4 /* GameScene.swift */; };
 		C414F308247BB7440063A1E4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C414F307247BB7440063A1E4 /* GameViewController.swift */; };
 		C414F30B247BB7440063A1E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C414F309247BB7440063A1E4 /* Main.storyboard */; };
 		C414F30D247BB7460063A1E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C414F30C247BB7460063A1E4 /* Assets.xcassets */; };
 		C414F310247BB7460063A1E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C414F30E247BB7460063A1E4 /* LaunchScreen.storyboard */; };
+		C414F318247C260D0063A1E4 /* StoneColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C414F317247C260D0063A1E4 /* StoneColor.swift */; };
+		C414F31A247C26520063A1E4 /* Stone.swift in Sources */ = {isa = PBXBuildFile; fileRef = C414F319247C26520063A1E4 /* Stone.swift */; };
+		C414F31C247C29220063A1E4 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = C414F31B247C29220063A1E4 /* Board.swift */; };
+		C414F31E247C2B740063A1E4 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = C414F31D247C2B740063A1E4 /* Player.swift */; };
+		C414F320247C2C280063A1E4 /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = C414F31F247C2C280063A1E4 /* Move.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C414F2FC247BB7440063A1E4 /* Flip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C414F2FF247BB7440063A1E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C414F301247BB7440063A1E4 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		C414F303247BB7440063A1E4 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		C414F305247BB7440063A1E4 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		C414F307247BB7440063A1E4 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		C414F30A247BB7440063A1E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C414F30C247BB7460063A1E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C414F30F247BB7460063A1E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C414F311247BB7460063A1E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C414F317247C260D0063A1E4 /* StoneColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoneColor.swift; sourceTree = "<group>"; };
+		C414F319247C26520063A1E4 /* Stone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stone.swift; sourceTree = "<group>"; };
+		C414F31B247C29220063A1E4 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		C414F31D247C2B740063A1E4 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		C414F31F247C2C280063A1E4 /* Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Move.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +70,12 @@
 			children = (
 				C414F2FF247BB7440063A1E4 /* AppDelegate.swift */,
 				C414F301247BB7440063A1E4 /* GameScene.sks */,
-				C414F303247BB7440063A1E4 /* Actions.sks */,
 				C414F305247BB7440063A1E4 /* GameScene.swift */,
+				C414F31D247C2B740063A1E4 /* Player.swift */,
+				C414F31F247C2C280063A1E4 /* Move.swift */,
+				C414F31B247C29220063A1E4 /* Board.swift */,
+				C414F317247C260D0063A1E4 /* StoneColor.swift */,
+				C414F319247C26520063A1E4 /* Stone.swift */,
 				C414F307247BB7440063A1E4 /* GameViewController.swift */,
 				C414F309247BB7440063A1E4 /* Main.storyboard */,
 				C414F30C247BB7460063A1E4 /* Assets.xcassets */,
@@ -135,7 +147,6 @@
 				C414F302247BB7440063A1E4 /* GameScene.sks in Resources */,
 				C414F30D247BB7460063A1E4 /* Assets.xcassets in Resources */,
 				C414F310247BB7460063A1E4 /* LaunchScreen.storyboard in Resources */,
-				C414F304247BB7440063A1E4 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,9 +157,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C414F31A247C26520063A1E4 /* Stone.swift in Sources */,
 				C414F306247BB7440063A1E4 /* GameScene.swift in Sources */,
+				C414F31C247C29220063A1E4 /* Board.swift in Sources */,
 				C414F308247BB7440063A1E4 /* GameViewController.swift in Sources */,
+				C414F320247C2C280063A1E4 /* Move.swift in Sources */,
+				C414F31E247C2B740063A1E4 /* Player.swift in Sources */,
 				C414F300247BB7440063A1E4 /* AppDelegate.swift in Sources */,
+				C414F318247C260D0063A1E4 /* StoneColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
